@@ -4,6 +4,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
+#define HYPER &kp LCTRL &kp LSHFT &kp LALT &kp LGUI
+
 / {
     behaviors {
         #include "macros.dtsi"
